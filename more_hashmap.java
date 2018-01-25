@@ -49,7 +49,7 @@ public class Solution {
                 name = reader.readLine();
                 map.put(name, id);
             } catch (NumberFormatException e) {
-                break; //перехват ошибки при считывании данных, выход из условия
+                break; //перехват ошибки при считывании данных, выход из цикла
             }
         }
         //перебор HashMap и вывод на экран согласно условию
